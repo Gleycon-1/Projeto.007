@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Sans-Serif;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('imagens/fundo-madeira.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+
+#pai {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 311px;
+  height: 600px;
+  }
+
+#frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    }
+#frame > iframe {
+  height: 465px;
+  width: 269px;
+}
+#imagens {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+}
+a > img {
+  border-radius: 50%;
+  transition: 1s;
+  width: 80px;
+}
+ a > img:hover{
+  margin-left: -10%;
+  margin-bottom: 20%;
+ }
+
+ .acesse {
+  margin-top: -3%;
+  width: 270px;
+  height: 80px;
+  background-color: #fded00;
+  border: none;
+  font-size: 35px;
+  transition: 1s;
+}
+ .acesse:hover {
+  background-color: #3a4aff;
+  color: #ffffff;
+  font-size: 35px;
+  border-radius: 5%;
+ }
+ .acesse > a {
+   text-decoration: none;
+   color: #e10000;
+   text-shadow: 1px 1px 1px #0000003c;
+   font-size: 35px;
+   }
+   .acesse > a:hover {
+     text-decoration: underline;
+     color: #ffffff;
+     text-shadow: 1px 1px 1px #0000006d;
+     font-size: 40px;
+   }
+ 
