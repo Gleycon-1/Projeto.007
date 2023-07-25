@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
- }
+}
 
 
 #pai {
@@ -30,59 +30,46 @@ body {
   transform: translate(-50%, -50%);
   width: 311px;
   height: 600px;
-  }
+}
 
 #frame {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 270px;
-    }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
 #frame > iframe {
   height: 465px;
   width: 269px;
 }
-#imagens {
-  position: absolute;
-  top: 35%;
-  left: 80%;
+section#imagens {
+  text-align: right;
 }
-a > img {
+#imagens img {
   border-radius: 50%;
-  transition: 1s;
   width: 80px;
+  box-shadow: 2px 2px 3px #0000008e;
+  margin: 15px;
 }
- a > img:hover{
-  margin-left: -10%;
-  margin-bottom: 20%;
- }
-
- .acesse {
-  margin-top: -3%;
-  width: 270px;
-  height: 80px;
-  background-color: #fded00;
-  border: none;
-  font-size: 35px;
+#imagens img:hover {
   transition: 1s;
+  transform: translate(-10px, -10px);
+  box-shadow: 5px 5px 10px black;
+  border: solid 2px #ffffffa5;
 }
- .acesse:hover {
-  background-color: #3a4aff;
+
+.acesse {
+  display: block;
+  text-align: center;
+  width: 250px;
+  margin-top: -2%;
+  padding: 10px;
+  background-color: #b49d00;
   color: #ffffff;
   font-size: 35px;
-  border-radius: 5%;
- }
- .acesse > a {
-   text-decoration: none;
-   color: #e10000;
-   text-shadow: 1px 1px 1px #0000003c;
-   font-size: 35px;
-   }
-   .acesse > a:hover {
-     text-decoration: underline;
-     color: #ffffff;
-     text-shadow: 1px 1px 1px #0000006d;
-     font-size: 40px;
-   }
- 
+}
+.acesse:hover {
+  transition: 1s;
+  background-color: #ffda31;
+}
