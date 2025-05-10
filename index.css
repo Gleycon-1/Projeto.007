@@ -44,13 +44,16 @@ body {
   width: 270px;
 }
 section#imagens {
+  margin-top: 3px;
+  margin-right: 10px;
+  padding-right: 10px;
   text-align: right;
 }
 #imagens img {
   border-radius: 50%;
-  width: 80px;
+  width: 70px;
   box-shadow: 2px 2px 3px #0000008e;
-  margin: 15px;
+  margin: 5px;
 }
 #imagens img:hover {
   transition: 1s;
