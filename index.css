@@ -11,8 +11,7 @@ html, body {
   width: 100vw;
 }
 
-body {
-  position: relative;
+  body {
   height: 100vh;
   width: 100vw;
   background-image: url('img.001/fundo-madeira.jpg');
@@ -23,56 +22,43 @@ body {
 }
 
 
-#pai {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  height: 600px;
+main {
+  position: relative;
+  height: 100vh;
 }
 
-#frame {
+#telefone {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 280px;
+
+  background: url('../Projeto.007/img.001/frame-iphone.png') no-repeat;
+  width: 311px;
+  height: 627px;
 }
-#frame > iframe {
-  height: 465px;
-  width: 270px;
+iframe#tela {
+ position: relative;
+ top: 80px;
+ left: 21px;
+ width: 269px;
+ height: 471px;
 }
-section#imagens {
-  margin-top: 3px;
-  margin-right: 10px;
-  padding-right: 10px;
+
+section#redes {
   text-align: right;
 }
-#imagens img {
+section#redes img {
+  width: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
   border-radius: 50%;
-  width: 70px;
-  box-shadow: 2px 2px 3px #0000008e;
-  margin: 5px;
-}
-#imagens img:hover {
-  transition: 1s;
-  transform: translate(-10px, -10px);
-  box-shadow: 5px 5px 10px black;
-  border: solid 2px #ffffffa5;
+  margin: 10px;
+  box-sizing: border-box;
 }
 
-.acesse {
-  display: block;
-  text-align: center;
-  width: 250px;
-  margin-top: -2%;
-  padding: 10px;
-  background-color: #b49d00;
-  color: #ffffff;
-  font-size: 35px;
-}
-.acesse:hover {
+section#redes img:hover {
   transition: 1s;
-  background-color: #ffda31;
+  border: solid 2px #fff;
+  box-shadow: 5px 5px 10px #000;
+  transform: translate(-3px, 3px);
 }
